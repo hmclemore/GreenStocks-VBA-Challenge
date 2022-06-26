@@ -10,7 +10,7 @@ The Purpose of this Stock Analysis was to compare if changing and refactoring th
 Another purpose of this analysis would be to show the user the results of the Green Energy Stocks.  The initial problem definition was that the user wanted to only run analysis on stock DQ, but through creating an array of all the green stocks with outputs showing volumes and returns we were able to compare DQ to the industry as a whole and it should be avoided as a stock pick which we will reveal below. 
 
 ## Baseline Code
-
+Excel File can be found in Green Stocks original File--> Green Stocks 
  The baseline code was only running on three outputs: 
  
 
@@ -38,6 +38,7 @@ See screenshots of 2017 and 2018 baseline times below:
 ![2018 Baseline GreenStocks](https://user-images.githubusercontent.com/104876690/175838702-c361b407-5bb5-467c-8f0a-e0ab21b57d77.png)
 
 ## Refactored Code Analysis
+Refactored code spreadsheet can be found in Challenge Excel File -->VBA Challenge
 
 The refactored code takes pieces of the baseline code and makes subtle changes to the code. The first change is to set a ticker index variable to 0.    The second change is the output metrics will be slightly changed to Starting Price and Ending Price.  The baseline code had return which was a calculation from Ending Price - Starting Price -1 to get a %  but now we are breaking out the Ending Price and Starting Price into their own columns.  Along with volume and the ticker symbols this will now bring our output count to 4.
 Items in the array of new refactored code:
