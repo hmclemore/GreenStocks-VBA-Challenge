@@ -20,7 +20,7 @@ Another purpose of this analysis would be to show the user the results of the Gr
 
 Ticker symbols shown below:
 
-
+![Ticker Pictures](https://user-images.githubusercontent.com/104876690/175838660-e3185c8f-0457-4350-a5a4-7a47b519f680.png)
 
 
 
@@ -29,6 +29,13 @@ The code was timed for running this analysis for both 2017 and 2018.  2017 and 2
 See screenshots of 2017 and 2018 baseline times below:
 
 
+
+2017
+![2017 Baseline GreenStocks](https://user-images.githubusercontent.com/104876690/175838687-ffba0b15-a525-49d7-9188-01319519a0fc.png)
+
+
+2018
+![2018 Baseline GreenStocks](https://user-images.githubusercontent.com/104876690/175838702-c361b407-5bb5-467c-8f0a-e0ab21b57d77.png)
 
 ## Refactored Code Analysis
 
@@ -48,6 +55,14 @@ The results of running the new refactored code run times were:
  - 2018: .8046875 seconds
 
 Screenshots below:
+
+2017
+![2017 Refactored RunTime](https://user-images.githubusercontent.com/104876690/175838728-41095680-1a06-4788-a07c-f67ee6dc1a9d.png)
+
+2018
+![2018 Refactored RunTime](https://user-images.githubusercontent.com/104876690/175838734-dd77b43e-3748-4830-ac3c-a86cbc94dd28.png)
+
+
 
 
 These run times were slightly slower than the original code but i believe it is due to the extra loop run in the extra column of the ending Price.  I also debated adding an additional return column so i could show Ending Price, Starting Price and Return % but this would have made the code run even slower .  
